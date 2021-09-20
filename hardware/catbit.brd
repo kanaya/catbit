@@ -157,9 +157,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="95" y2="0" width="0" layer="20"/>
-<wire x1="95" y1="72" x2="0" y2="72" width="0" layer="20"/>
-<wire x1="0" y1="72" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="92" y2="0" width="0" layer="20"/>
+<wire x1="92" y1="0" x2="95" y2="3" width="0" layer="20" curve="90"/>
+<wire x1="95" y1="3" x2="95" y2="69" width="0" layer="20"/>
+<wire x1="95" y1="69" x2="92" y2="72" width="0" layer="20" curve="90"/>
+<wire x1="92" y1="72" x2="3" y2="72" width="0" layer="20"/>
+<wire x1="3" y1="72" x2="0" y2="69" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="69" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
 <hole x="5" y="5" drill="3.2"/>
 <hole x="90" y="5" drill="3.2"/>
 <hole x="90" y="67" drill="3.2"/>
@@ -173,7 +178,6 @@
 <circle x="5" y="5" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="90" y="5" radius="2.236065625" width="0.2" layer="41"/>
 <text x="47.5" y="64" size="1" layer="25" align="bottom-center">CatBit-8 1.0.0-X</text>
-<wire x1="95" y1="0" x2="95" y2="72" width="0" layer="20"/>
 <text x="12" y="7" size="1.27" layer="25" align="bottom-center">DC24V</text>
 <text x="20" y="71" size="1.27" layer="26" rot="MR0" align="top-center">OUT</text>
 <text x="47.5" y="71" size="1.27" layer="26" rot="MR0" align="top-center">IN</text>
