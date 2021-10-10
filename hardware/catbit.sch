@@ -13997,6 +13997,9 @@ Low profile connectors, straight&lt;p&gt;
 <class number="3" name="analog" width="0.1524" drill="0.1524">
 <clearance class="3" value="0.1524"/>
 </class>
+<class number="4" name="superpower" width="0.508" drill="0.1524">
+<clearance class="4" value="0.1524"/>
+</class>
 </classes>
 <parts>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
@@ -14573,7 +14576,7 @@ Low profile connectors, straight&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="4">
 <segment>
 <pinref part="JP1" gate="A" pin="10"/>
 <wire x1="210.82" y1="83.82" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
@@ -14835,7 +14838,7 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="241.3" y="142.24"/>
 </segment>
 </net>
-<net name="+24V" class="2">
+<net name="+24V" class="4">
 <segment>
 <pinref part="J0" gate="JACK" pin="+"/>
 <wire x1="214.63" y1="142.24" x2="220.98" y2="142.24" width="0.1524" layer="91"/>
@@ -14937,7 +14940,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="243.84" y="25.4" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GNDA" class="1">
+<net name="GNDA" class="4">
 <segment>
 <pinref part="J0" gate="JACK" pin="CDN"/>
 <wire x1="214.63" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
