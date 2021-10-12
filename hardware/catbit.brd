@@ -199,6 +199,9 @@
 <wire x1="82.73" y1="29" x2="85.27" y2="29" width="1" layer="21"/>
 <text x="61" y="1.5" size="1" layer="25" align="center-left">GND</text>
 <text x="82" y="29" size="1" layer="25" align="center-right">GND</text>
+<text x="47.5" y="50" size="1" layer="25" align="bottom-center">101</text>
+<text x="47.5" y="27" size="1" layer="25" align="bottom-center">102</text>
+<text x="75.5" y="10" size="1" layer="25" rot="R90" align="bottom-center">161</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3337,7 +3340,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="35" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.444" y="61.365" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="74" y="10" smashed="yes">
+<element name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="160" x="74" y="10" smashed="yes">
 <attribute name="MF" value="" x="74" y="10" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="74" y="10" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63" y="10" size="1" layer="25" ratio="10" rot="R90" align="bottom-center"/>
@@ -3351,7 +3354,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="1" x="47.5" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.69" y="16.715" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="RN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="47.5" y="51" smashed="yes" rot="R270">
+<element name="RN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="100" x="47.5" y="51" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="47.5" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="47.5" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="47.5" y="62" size="1" layer="25" ratio="10" align="bottom-center"/>
@@ -3360,7 +3363,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="2" x="47.5" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="46.865" y="58.493" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="RN3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="47.5" y="28" smashed="yes" rot="R270">
+<element name="RN3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="1k" x="47.5" y="28" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="47.5" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="47.5" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="47.5" y="39" size="1" layer="25" ratio="10" align="bottom-center"/>
