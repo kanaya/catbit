@@ -13997,7 +13997,7 @@ Low profile connectors, straight&lt;p&gt;
 <class number="3" name="analog" width="0.1524" drill="0.1524">
 <clearance class="3" value="0.1524"/>
 </class>
-<class number="4" name="superpower" width="0.508" drill="0.1524">
+<class number="4" name="superpower" width="1.016" drill="0.1524">
 <clearance class="4" value="0.1524"/>
 </class>
 </classes>
@@ -14008,7 +14008,6 @@ Low profile connectors, straight&lt;p&gt;
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
-<part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
@@ -14086,14 +14085,14 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16LE" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML10LE" device="" package3d_urn="urn:adsk.eagle:package:8678/1"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14120,12 +14119,11 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="NAME" x="242.824" y="137.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.824" y="132.461" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="231.14" y="124.46" smashed="yes"/>
 <instance part="P+1" gate="1" x="220.98" y="149.86" smashed="yes">
 <attribute name="VALUE" x="218.44" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="215.9" y="132.08" smashed="yes">
-<attribute name="VALUE" x="213.36" y="129.54" size="1.778" layer="96" rot="R90"/>
+<instance part="GND1" gate="1" x="215.9" y="124.46" smashed="yes">
+<attribute name="VALUE" x="213.36" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="A" x="208.28" y="96.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="214.63" y="109.855" size="1.778" layer="95" rot="MR0"/>
@@ -14564,19 +14562,35 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="VALUE" x="239.014" y="80.899" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="243.84" y="78.74" smashed="yes"/>
-<instance part="SUPPLY20" gate="GND" x="50.8" y="134.62" smashed="yes"/>
-<instance part="SUPPLY21" gate="GND" x="50.8" y="96.52" smashed="yes"/>
-<instance part="SUPPLY22" gate="GND" x="50.8" y="58.42" smashed="yes"/>
-<instance part="SUPPLY23" gate="GND" x="50.8" y="20.32" smashed="yes"/>
-<instance part="SUPPLY24" gate="GND" x="152.4" y="20.32" smashed="yes"/>
-<instance part="SUPPLY25" gate="GND" x="152.4" y="58.42" smashed="yes"/>
-<instance part="SUPPLY26" gate="GND" x="152.4" y="96.52" smashed="yes"/>
-<instance part="SUPPLY27" gate="GND" x="152.4" y="134.62" smashed="yes"/>
+<instance part="GND10" gate="1" x="50.8" y="134.62" smashed="yes">
+<attribute name="VALUE" x="48.26" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND11" gate="1" x="50.8" y="96.52" smashed="yes">
+<attribute name="VALUE" x="48.26" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND12" gate="1" x="50.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="48.26" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND13" gate="1" x="50.8" y="20.32" smashed="yes">
+<attribute name="VALUE" x="48.26" y="17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND14" gate="1" x="152.4" y="20.32" smashed="yes">
+<attribute name="VALUE" x="149.86" y="17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND15" gate="1" x="152.4" y="58.42" smashed="yes">
+<attribute name="VALUE" x="149.86" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND16" gate="1" x="152.4" y="96.52" smashed="yes">
+<attribute name="VALUE" x="149.86" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND17" gate="1" x="152.4" y="134.62" smashed="yes">
+<attribute name="VALUE" x="149.86" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="4">
+<net name="GND" class="1">
 <segment>
 <pinref part="JP1" gate="A" pin="10"/>
 <wire x1="210.82" y1="83.82" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
@@ -14676,19 +14690,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="121.92" y1="137.16" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="1" pin="GND"/>
-<wire x1="231.14" y1="134.62" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="129.54" x2="231.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="132.08" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
-<junction x="231.14" y="129.54"/>
-<wire x1="231.14" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="129.54" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="-9" pin="S"/>
 <wire x1="241.3" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="-10" pin="S"/>
@@ -14697,54 +14698,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="243.84" y1="83.82" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
 <junction x="243.84" y="83.82"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="A" pin="GND"/>
-<wire x1="48.26" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SUPPLY20" gate="GND" pin="GND"/>
-<wire x1="50.8" y1="142.24" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK2" gate="A" pin="GND"/>
-<wire x1="48.26" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SUPPLY21" gate="GND" pin="GND"/>
-<wire x1="50.8" y1="104.14" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK3" gate="A" pin="GND"/>
-<wire x1="48.26" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<wire x1="50.8" y1="66.04" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK4" gate="A" pin="GND"/>
-<wire x1="48.26" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY23" gate="GND" pin="GND"/>
-<wire x1="50.8" y1="27.94" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK5" gate="A" pin="GND"/>
-<wire x1="149.86" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SUPPLY27" gate="GND" pin="GND"/>
-<wire x1="152.4" y1="142.24" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK6" gate="A" pin="GND"/>
-<wire x1="149.86" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SUPPLY26" gate="GND" pin="GND"/>
-<wire x1="152.4" y1="104.14" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK7" gate="A" pin="GND"/>
-<wire x1="149.86" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY25" gate="GND" pin="GND"/>
-<wire x1="152.4" y1="66.04" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OK8" gate="A" pin="GND"/>
-<wire x1="149.86" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY24" gate="GND" pin="GND"/>
-<wire x1="152.4" y1="27.94" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -14946,10 +14899,23 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="214.63" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="139.7" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J0" gate="JACK" pin="-"/>
-<wire x1="215.9" y1="137.16" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="129.54" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <junction x="215.9" y="137.16"/>
 <pinref part="GND1" gate="1" pin="GNDA"/>
+<pinref part="IC1" gate="1" pin="GND"/>
+<wire x1="231.14" y1="134.62" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="132.08" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
+<junction x="231.14" y="129.54"/>
+<wire x1="231.14" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="129.54" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
+<junction x="220.98" y="129.54"/>
+<junction x="215.9" y="129.54"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="144.78" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
@@ -15022,6 +14988,54 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="180.34" y1="35.56" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 <junction x="180.34" y="30.48"/>
 <pinref part="RN3" gate="H" pin="2"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="GND"/>
+<wire x1="48.26" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="142.24" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK2" gate="A" pin="GND"/>
+<wire x1="48.26" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="104.14" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK3" gate="A" pin="GND"/>
+<wire x1="48.26" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="66.04" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK4" gate="A" pin="GND"/>
+<wire x1="48.26" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="27.94" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK8" gate="A" pin="GND"/>
+<wire x1="149.86" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="27.94" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK7" gate="A" pin="GND"/>
+<wire x1="149.86" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="66.04" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK6" gate="A" pin="GND"/>
+<wire x1="149.86" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="OK5" gate="A" pin="GND"/>
+<wire x1="149.86" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="142.24" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="D1" class="0">
