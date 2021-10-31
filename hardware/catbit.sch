@@ -13988,13 +13988,13 @@ Low profile connectors, straight&lt;p&gt;
 <class number="0" name="default" width="0.1524" drill="0.1524">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="gnd" width="0.3048" drill="0.1524">
+<class number="1" name="gnd" width="0.508" drill="0.1524">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="power" width="0.3048" drill="0.1524">
+<class number="2" name="power" width="0.508" drill="0.1524">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="analog" width="0.1524" drill="0.1524">
+<class number="3" name="analog" width="0.3048" drill="0.1524">
 <clearance class="3" value="0.1524"/>
 </class>
 <class number="4" name="superpower" width="1.016" drill="0.1524">
